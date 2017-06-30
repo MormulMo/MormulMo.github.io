@@ -1,5 +1,6 @@
 h1 {
 	color: #333;
+	text-align: center;
 }
 body {
 	color: blue;
@@ -29,4 +30,9 @@ li {
 	color: red;
 	font-family: Arial;
 	font-size: 18px;
+}
+#main-title {
+	font-size: 50px;
+	color: #333;
+	text-align: center;
 }
