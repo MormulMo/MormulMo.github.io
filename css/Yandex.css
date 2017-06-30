@@ -1,0 +1,32 @@
+h1 {
+	color: #333;
+}
+body {
+	color: blue;
+	font-size: 15px;
+}
+p {
+	margin: 15px 0;
+	background: #f2f2f2;
+
+}
+table {
+	border: 2px solid #ccc;
+}
+ul {
+	margin: 10px;
+	padding: 0;
+}
+li {
+	font-size: 18px;
+	margin: 5px 0;
+
+}
+.title {
+	color: red;
+}
+.font {
+	color: red;
+	font-family: Arial;
+	font-size: 18px;
+}

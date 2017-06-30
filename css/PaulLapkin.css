@@ -1,0 +1,98 @@
+img {
+		width: 300px;
+		height: 240px;
+
+	}
+
+.ADRESS {
+			position: absolute;
+			right: 524px;
+			bottom: -78em;
+			background: ;
+			color: ;
+
+}
+
+.PHONE {
+			position: absolute;
+			right: 45em;
+			bottom: -87em;
+			background: ;
+			color: ;
+
+}
+
+.form	{
+			width: 30em;
+			background: ;
+			color: ;
+			height: 75px;
+
+
+
+}
+
+.button {
+
+			width: 10em;
+}
+
+.WEB {
+			position: absolute;
+			right: 40em;
+			bottom: -96em;
+			background: ;
+			color: ;
+
+}
+
+body {
+		background-image: url(pastel.png);
+		 
+
+
+}
+
+.buttons1 {
+		width: 15em;
+		height: 15em;
+		background-color: #00FFFF;
+}
+
+.divButtons {
+			text-align: center;
+
+}
+.buttons2 {
+		width: 15em;
+		height: 15em;
+		background-color: #FF00FF;
+}
+.buttons3 {
+		width: 15em;
+		height: 15em;
+		background-color: #000080;
+}
+.buttons4 {
+		width: 15em;
+		height: 15em;
+		background-color: #800000;
+}
+
+.imghour {
+		width: 3em;
+		height: 3em;
+}
+.imgfire {
+		width: 14em;
+		height: 3em;
+}
+.imgbaloon {
+		width: 4em;
+		height: 3em;
+}
+}
+.img@ {
+		width: 1px;
+		height: 1px;
+}
