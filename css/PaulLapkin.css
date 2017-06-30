@@ -7,7 +7,7 @@ img {
 .ADRESS {
 			position: absolute;
 			right: 524px;
-			bottom: -78em;
+			bottom: -99em;
 			background: ;
 			color: ;
 
@@ -16,7 +16,7 @@ img {
 .PHONE {
 			position: absolute;
 			right: 45em;
-			bottom: -87em;
+			bottom: -107em;
 			background: ;
 			color: ;
 
@@ -40,7 +40,7 @@ img {
 .WEB {
 			position: absolute;
 			right: 40em;
-			bottom: -96em;
+			bottom: -115em;
 			background: ;
 			color: ;
 
@@ -92,7 +92,34 @@ body {
 		height: 3em;
 }
 }
-.img@ {
-		width: 1px;
-		height: 1px;
+.imgdog {
+		width: 4em;
+		height: 3em;
+}
+.first {
+	font-size: 30px;
+	color: red;
+}
+
+.first-step {
+	font-size: 40px;
+	background: #333;
+}
+
+.first1 {
+	margin: 40px;
+	color: green;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.five {
+	text-decoration: line-through;
+}
+span {
+	color: red;
+}
+
+.father {
+	color: white;
 }
