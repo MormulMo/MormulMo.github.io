@@ -4,24 +4,6 @@ img {
 
 	}
 
-.ADRESS {
-			position: absolute;
-			right: 524px;
-			bottom: -99em;
-			background: ;
-			color: ;
-
-}
-
-.PHONE {
-			position: absolute;
-			right: 45em;
-			bottom: -107em;
-			background: ;
-			color: ;
-
-}
-
 .form	{
 			width: 30em;
 			background: ;
@@ -37,14 +19,6 @@ img {
 			width: 10em;
 }
 
-.WEB {
-			position: absolute;
-			right: 40em;
-			bottom: -115em;
-			background: ;
-			color: ;
-
-}
 
 body {
 		background-image: url(pastel.png);
