@@ -6,33 +6,50 @@
    <link rel="stylesheet" href="css/PaulLapkin.css">
 </head>
 <body>
-	<header style="background: blue">
-		<h1 align="center">Paul Lapkin</h1>
-		<p align="center">#User Experience #Music #Creative Direction</p>
+	<header>
+		<div class="header">
+			<div class="bender">
+				<div class="logo"></div>
+				<button class="button-menu" type="submit"></button>
+
+					<div class="divheader">
+						
+						<h1>Paul Lapkin</h1>
+						
+						<p class="heshteg">#User Experience #Music #Creative Direction</p>
+
+				</div>	
+			</div>
+		</div>
 	</header>
 
-		<nav style="background: red">
+		<!--<nav style="background: red">
 			<ul>
+				
 				<li>Nav link</li>
 				<li>Nav link</li>
 				<li>Nav link</li>
 			</ul>
-		</nav>
+		</nav>-->
 		
 			<main>
 				<article>
-					<h2 align="center">Hi, I'm Paul Lapkin. Experience Crafter from Canada.</h2>
-						<div align="center">
-							<p>Lorem ipsu, dolor sit amet, consectetuer adipiscing, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ad minim veniam,<br> quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo<br> consequat.</p>
+						<div class="PaulLapkin">
+							
+						</div>
+						<div class="txtPL">
+							<h2 class="PLh2">Hi, I'm Paul Lapkin. Experience Crafter from Canada.</h2>
+						
+							<div class="pPL">
+							<p class="p1">Lorem ipsu, dolor sit amet, consectetuer adipiscing, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ad minim veniam,<br> quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo<br> consequat.</p>
 					
 							<p>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molostie consequat, vel<br> illum dolore eu feugiat nulla facilisis at vero eros er accumsan et iusto odio dignissim qui<br> blandit praesent luptatum zzril delenit augue duis dolore.</p>
+								<form method="post">
+									<button class="button-hire-me" type="submit">Hire me!</button>
+								</form>
+							</div>
 						</div>
 						
-							<form method="post">
-								<div align="center">
-									<button type="submit">Hire me!</button>
-								</div>
-							</form>
 				</article>
 				<section>
 					<h2 align="center">My Working Process</h2>
@@ -40,19 +57,20 @@
 					
 						<form method="post">
 							<div class="divButtons">
-								<button class="buttons1" type="submit"><img class="imghour" src="css/hour.png"><br>DESIGN</button>
-								<button class="buttons2" type="submit"><img class="imgfire" src="css/fire.png"><br>DEVELOPMENT</button>
-								<button class="buttons3" type="submit"><img class="imgbaloon" src="css/baloon.png"><br>TESTING</button>
-								<button class="buttons4" type="submit"><img class="imgdog" src="css/dog.png"><br>LAUNCH</button>
+								<button class="design" type="submit"><br>DESIGN</button>
+								<button class="development" type="submit"><br>DEVELOPMENT</button>
+								<button class="testing" type="submit"><br>TESTING</button>
+								<button class="launch" type="submit"><br>LAUNCH</button>
 							</div>
 						</form>
 					
 				</section>
 				<br>
 
+				<div class="center-article">
 				<div style="display: inline-block;">
 					<article>
-						<h2 align="center">WORK EXPERIENCE</h2>
+						<h2>WORK EXPERIENCE</h2>
 							<h3>MAd Max Design</h3>
 								<p>OCT 2013 - june 2014</p>
 									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br>nonummy nibh euismod ut laoreet dolore magna aliquam<br>erat volutpat.</p>
@@ -74,6 +92,7 @@
 									<p>OCT 2014 - PRESENT</p>
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br>nonummy nibh euismod ut laoreet dolore magna aliquam<br>erat volutpat.</p>
 					</article>
+				</div>
 				</div>
 				<article>
 					<h2 align="center">My Latest Works</h2>
@@ -99,44 +118,39 @@
 				</article>
 
 				
-				<section>
-					<h2>LEAVE A MESSAGE</h2>
-						<div class="mother" style="display: inline-block;"">
-							<form method="post">
-								<div>
-									<input class="form" name="title" placeholder="Name*"><br>
-									<input class="form" name="title" placeholder="Email*"><br>
-									<input class="form" name="title" placeholder="Subject*"><br>
-									<textarea class="form" placeholder="Message*" rows="10" cols="21"></textarea><br>
-									<button class="button" type="submit">Hire Me!</button>
-									
-								</div>
-							</form>
-
-						
-								<div class="ADRESS">	
-									<h2>ADRESS</h2>
-										<p>Gulshan Sales Office. Sa Tower (lvl-5), Plot#1,<br> Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
-								</div>
-								<br>
-									<div class="PHONE">
-										<h2>PHONE</h2>
-											<p>+880 174 037 6995</p>
+						<section>
+				            <div class="wrap">
+				                
+				                <div class="column1">
+				                    <form method="post">
+				                        <h2>LEAVE A MESSAGE</h2>
+				                        <input type="text" name="1" value="" placeholder="Name*"><br>
+				                        <input type="email" name="2" value="" placeholder="Email*"><br>
+				                        <input type="text" name="3" value="" placeholder="Subject*"><br>
+				                        <textarea name="4" rows="15" cols="21" placeholder="Message*"></textarea>
+				                    </form>
+				                </div>
+				                <div class="column2">
+				                    <div class="adress">
+				                        <h2>ADDRESS</h2>
+				                        	<p>Gulshan Sales Office. Sa Tower (lvl-5), Plot#1,<br> Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+				                    </div>
+				                    <div class="phone">
+				                        <h2>PHONE</h2>
+				                        	<p>+880 174 037 6995</p>
 											<p>+880 191 345 1111</p>
-									</div>
-									
-										<div class="WEB">
-											<h2>WEB</h2>
-												<p>MAIL: <a href="mailto: quicksayed@gmail.com">quicksayed@gmail.com</a></p>
-												<p>Web site: <a href="dribbble.com/alisayed">dribbble.com/alisayed</a></p>
-										</div>
-						
+				                    </div>
+				                    <div class="web">
+				                        <h2>WEB</h2>
+				                        	<p>MAIL: <a href="mailto: quicksayed@gmail.com">quicksayed@gmail.com</a></p>
+											<p>Web site: <a href="dribbble.com/alisayed">dribbble.com/alisayed</a></p>
+				                    </div>
+				                </div>
+				                
+				           </div>
+				        </section>
 
-
-						</div>
-					</section>
-
-					<div class="first first-step first1">
+					<!--	<div class="first first-step first1">
 						<span>aaaaaaaaaafffffffffffggggggggggggggghgfhfghfgh</span>
 						
 						<span class="son"> dfgdfghhhhhhhhhhhhhhhhhhhddddddfrhyvnhdfghd</span>
@@ -144,10 +158,9 @@
 						<span class="father">fdhdghdfgdfh</span>
 
 						<div class="five">fghhhhhhfffffttttttjjjjjj</div>
-					</div>
+					</div>	-->
 						
 
-					
 				
 
 

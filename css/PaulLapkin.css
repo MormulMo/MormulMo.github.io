@@ -1,10 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: relative;
+
+}
+
+.header {
+	background-image: url(img/bender.jpg);
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.bender {
+	background-image: url(img/header-fon.png);
+	height: 100%;
+}
+
+
+
+.divheader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 65px;
+	color: #000;
+	text-align: center;
+	width: 140vh;
+}
+
+
+.heshteg {
+	font-size: 25px;
+}
+
+.logo {
+	background-image: url(img/logoPL.png);
+	width: 37px;
+	height: 47px;
+	position: relative;
+	top: 92px;
+	left: 216px;
+}
+
+.button-menu {
+	background-image: url(img/button-menu.png);
+	position: relative;
+	top: 35px;
+	right: 215px;
+	width: 59px;
+	height: 59px;
+	float: right;
+	border: 0;
+	
+	
+}
+
+.PaulLapkin {
+	background-image: url("img/PaulLapkin.png");
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-left: 80px;
+	left: 205px;
+	top: 1141px;
+  	width: 431px;
+  	height: 583px;
+
+
+}
+
+.txtPL {
+	
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 105px;
+	margin-left: 30px;
+	line-height: 1.751;
+
+
+}
+
+
+
+
+.PLh2 {
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+
+.pPL {
+	font-size: 16px;
+	width: 670px;
+	height: 213px;
+	position: absolute;
+}
+
+.p1 {
+	margin-bottom: 35px;
+}	
+
+.button-hire-me {
+	margin-top: 70px;
+	background-image: url("img/button-hire-me.png");
+	border: 0;
+	width: 202px;
+	height: 46px;
+	color: #fff;
+}
+
 img {
 		width: 300px;
 		height: 240px;
 
 	}
 
-.form	{
+.form {
 			width: 30em;
 			background: ;
 			color: ;
@@ -17,60 +132,53 @@ img {
 .button {
 
 			width: 10em;
+			height: 10em;
+}
+
+.divButtons {
+	text-align: center;
+
+}
+
+.design {
+	height: 10em;
+	width: 10em;
+	background-color: #0000FF;
+}
+
+.development {
+	height: 10em;
+	width: 10em;
+	background-color: #8A2BE2;
+}
+
+.testing {
+	height: 10em;
+	width: 10em;
+	background-color: #000080;
+}
+
+.launch {
+	height: 10em;
+	width: 10em;
+	background-color: #CD5C5C;
+}
+.center-article {
+	width: 1024px;
+	margin: 0 auto;
 }
 
 
-body {
-		background-image: url(pastel.png);
+/*body {
+		background-image: url(pastel.png);*/
 		 
 
 
 }
 
-.buttons1 {
-		width: 15em;
-		height: 15em;
-		background-color: #00FFFF;
+.
 }
-
-.divButtons {
-			text-align: center;
-
-}
-.buttons2 {
-		width: 15em;
-		height: 15em;
-		background-color: #FF00FF;
-}
-.buttons3 {
-		width: 15em;
-		height: 15em;
-		background-color: #000080;
-}
-.buttons4 {
-		width: 15em;
-		height: 15em;
-		background-color: #800000;
-}
-
-.imghour {
-		width: 3em;
-		height: 3em;
-}
-.imgfire {
-		width: 14em;
-		height: 3em;
-}
-.imgbaloon {
-		width: 4em;
-		height: 3em;
-}
-}
-.imgdog {
-		width: 4em;
-		height: 3em;
-}
-.first {
+/*.first {
 	font-size: 30px;
 	color: red;
 }
@@ -96,4 +204,16 @@ span {
 
 .father {
 	color: white;
+} */
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #800080;
+    
+}
+.column1,
+.column2 {
+    display: inline-block; 
+    vertical-align: top;
+    width: 250px;
 }
