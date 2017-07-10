@@ -2,10 +2,17 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	color: rgba(0,0,0,.7);
+}
 header {
 	position: relative;
 
 }
+.wrap {
+    width: 1170px;
+    margin: 0 auto;
+   }
 
 .header {
 	background-image: url(img/bender.jpg);
@@ -59,6 +66,8 @@ header {
 	
 }
 
+/* Hi, i'm Paul Lapkin */
+
 .PaulLapkin {
 	background-image: url("img/PaulLapkin.png");
 	display: inline-block;
@@ -69,99 +78,110 @@ header {
 	top: 1141px;
   	width: 431px;
   	height: 583px;
-
-
 }
-
 .txtPL {
 	
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 105px;
 	margin-left: 30px;
-	line-height: 1.751;
-
-
+	line-height: 1.75em;
 }
-
-
-
-
 .PLh2 {
 	font-size: 18px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
+
 }
-
-
 .pPL {
 	font-size: 16px;
 	width: 670px;
 	height: 213px;
 	position: absolute;
 }
-
 .p1 {
 	margin-bottom: 35px;
 }	
-
 .button-hire-me {
 	margin-top: 70px;
 	background-image: url("img/button-hire-me.png");
-	border: 0;
+	border: none;
+	cursor: pointer;
 	width: 202px;
-	height: 46px;
+	padding: 15px;
 	color: #fff;
 }
+.button-hire-me:hover {
+	opacity: .75;
+}
 
+/*End: Hi, i'm Paul Lapkin */
+
+
+.section_process {
+	background: #f6f6f6;
+	padding: 120px 0;
+	text-align: center;
+}
 img {
 		width: 300px;
 		height: 240px;
 
 	}
-
-.form {
-			width: 30em;
-			background: ;
-			color: ;
-			height: 75px;
-
-
-
-}
-
 .button {
 
 			width: 10em;
 			height: 10em;
 }
-
 .divButtons {
-	text-align: center;
+	margin-top: 50px;
+	font-size: 0;
+
+
 
 }
-
+.icon {
+	background-image: url(img/button_design.png);
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin: 0 auto 40px;
+}
 .design {
-	height: 10em;
-	width: 10em;
-	background-color: #0000FF;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px;
+	height: 230px;
+	width: 230px;
+	background-color: #10c6fc;
+	border: none;
 }
-
 .development {
-	height: 10em;
-	width: 10em;
-	background-color: #8A2BE2;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px;
+	height: 230px;
+	width: 230px;
+	background-color: #835aeb;
+	border: none;
 }
-
 .testing {
-	height: 10em;
-	width: 10em;
-	background-color: #000080;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px;
+	height: 230px;
+	width: 230px;
+	background-color: #002453;
+	border: none;
 }
 
 .launch {
-	height: 10em;
-	width: 10em;
-	background-color: #CD5C5C;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 9px;
+	height: 230px;
+	width: 230px;
+	background-color: #ff2b4a;
+	border: none;
 }
 .center-article {
 	width: 1024px;
@@ -174,10 +194,6 @@ img {
 		 
 
 
-}
-
-.
-}
 /*.first {
 	font-size: 30px;
 	color: red;
@@ -205,10 +221,7 @@ span {
 .father {
 	color: white;
 } */
-.wrap {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #800080;
+
     
 }
 .column1,
