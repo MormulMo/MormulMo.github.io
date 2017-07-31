@@ -4,13 +4,30 @@
   <title>resume</title>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="css/PaulLapkin.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="javascript/PaulLapkin.js"></script>
 </head>
 <body>
 	<header>
 		<div class="header">
 			<div class="bender">
+				
+				<!-- menu -->
+
+				<div class="header_aside">
+				<div class="menu_close">x</div>
+					<ul class="list_menu">
+						<li><a href="#menu1">menu1</a></li>
+						<li><a href="#menu2">menu2</a></li>
+						<li><a href="#menu3">menu3</a></li>
+						<li><a href="#menu4">menu4</a></li>
+						<li><a href="#menu5">menu5</a></li>
+					</ul>
+				</div>
+
+				<!-- end menu -->
 				<div class="logo"></div>
-				<button class="button-menu" type="submit"></button>
+				<div class="button-menu"></div>
 
 					<div class="divheader">
 						
@@ -33,7 +50,7 @@
 		</nav>-->
 		
 			<main>
-				<article>
+				<article id="menu1">
 						<div class="PaulLapkin"></div>
 						<div class="txtPL">
 							<h2 class="PLh2">Hi, I'm Paul Lapkin. Experience Crafter from Canada.</h2>
@@ -42,17 +59,19 @@
 							<p class="p1">Lorem ipsu, dolor sit amet, consectetuer adipiscing, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi ad minim veniam,<br> quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo<br> consequat.</p>
 					
 							<p>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molostie consequat, vel<br> illum dolore eu feugiat nulla facilisis at vero eros er accumsan et iusto odio dignissim qui<br> blandit praesent luptatum zzril delenit augue duis dolore.</p>
-								<form method="post">
-									<button class="button-hire-me" type="submit">Hire me!</button>
-								</form>
+								
+								<div class="button-hire-me-div">
+									<button class="button-hire-me">Hire me!</button>
+									<div class="tooltip">Я кнопочка, привет!</div>
+								</div>
 							</div>
 						</div>
 						
 				</article>
-				<section class="section_process">
+				<section class="section_process" id="menu2">
 				<div class="wrap">
-					<h2 align="center">My Working Process</h2>
-					<p align="center">Hi, I'm Paul Lapkin. Experience Crafter from Canada.</p>
+					<h2>My Working Process</h2>
+					<p>Hi, I'm Paul Lapkin. Experience Crafter from Canada.</p>
 					
 						
 							<div class="divButtons">
@@ -65,7 +84,7 @@
 				</div>
 				</section>
 				
-				<section class="section_experience">
+				<section class="section_experience" id="menu3">
 					<div class="wrap_experience">
 						<div class="column_left">
 							<h3>Work Experience</h3>
@@ -87,7 +106,7 @@
 						</div>
 					</div>
 				</section>
-				<article class="article_my_latest_works">
+				<article class="article_my_latest_works" id="menu4">
 					<div class="wrap">
 						<h2 class="my_latest_works">My Latest Works</h2>
 							<p class="text_my_latest_works">Hi, I'm Paul Lapkin. Experience Crafter from Canada.</p>
@@ -108,7 +127,7 @@
 								</div>
 					</div>			
 				</article>
-				<article>
+				<article id="menu5">
 					<div>
 						<div class="text_podpis">
 							<div class="kavichki"></div>
@@ -127,9 +146,9 @@
 				                <div class="column1">
 				                    <form method="post">
 				                        <h2>Leave A Message</h2>
-				                        <input class="form_name" type="text" name="1" value="" placeholder="Name*">
-				                        <input class="form_email" type="email" name="2" value="" placeholder="Email*">
-				                        <input class="form_subject" type="text" name="3" value="" placeholder="Subject*">
+				                        <input class="form_input" type="text" name="1" value="" placeholder="Name*">
+				                        <input class="form_input" type="email" name="2" value="" placeholder="Email*">
+				                        <input class="form_input" type="text" name="3" value="" placeholder="Subject*">
 				                        <textarea class="form_message" name="4" rows="15" cols="21" placeholder="Message*"></textarea>
 				                    </form>
 				                </div>
@@ -156,8 +175,8 @@
 			</main>
 			
 			<footer>
-				<div align="center">
-					<p align="center">&copy; All rights Reserved;</p>
+				<div class="footer_section">
+					<p align="copyright_p">&copy; All rights Reserved;</p>
 				</div>
 			</footer>
 		

@@ -4,6 +4,7 @@
 }
 body {
 	color: rgba(0,0,0,.7);
+	
 }
 header {
 	position: relative;
@@ -24,6 +25,8 @@ header {
 .bender {
 	background-image: url(img/header-fon.png);
 	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -39,6 +42,50 @@ header {
 	width: 140vh;
 }
 
+/*menu*/
+
+.header_aside {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 400px;
+	height: 100vh;
+	background-color: rgba(0,0,0,.8);
+	color: #fff;
+	text-align: left;
+	z-index: 100;
+	display: none;
+
+
+}
+.menu_close {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.menu_close:hover {
+	opacity: .5;
+}
+.list_menu {
+	margin: 80px 0 0 20px;
+	padding: 0;
+	list-style: none;
+
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:visited {
+	color: #cecece;
+}
+
+.list_menu li {
+	margin: 0 0 50px;
+}
 
 .heshteg {
 	font-size: 25px;
@@ -101,6 +148,9 @@ header {
 .p1 {
 	margin-bottom: 35px;
 }	
+.button-hire-me-div {
+	position: relative;
+}
 .button-hire-me {
 	margin-top: 70px;
 	background-image: url("img/button-hire-me.png");
@@ -113,13 +163,34 @@ header {
 .button-hire-me:hover {
 	opacity: .75;
 }
+.tooltip {
+	display: none;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+	font-size: 12px;
 
+}
+
+.button-hire-me-bg {
+	position: relative;
+	background: black;
+}
 /*End: Hi, i'm Paul Lapkin */
 
 
 .section_process {
 	background: #f6f6f6;
 	padding: 120px 0;
+	text-align: center;
+}
+.section_process h2 p {
 	text-align: center;
 }
 img {
@@ -191,6 +262,7 @@ img {
 	height: 230px;
 	width: 230px;
 	background-color: #835aeb;
+	color: #fff;
 	border: none;
 }
 .testing {
@@ -323,20 +395,20 @@ img {
 }
 .first_img_column_left {
 	display: inline-block;
-	background-image: url(img/photo1.jpg);
+	background-color: #10c6fc;
 	width: 282px;
 	height: 270px;
 }
 .second_img_column_left {
 	display: inline-block;
-	background-image: url(img/photo2.jpg);
+	background-color: #835aeb;
 	width: 282px;
 	height: 270px;
 	margin: 0 0 0 13px;
 }
 .third_img_column_left {
 	display: block;
-	background-image: url(img/photo3.jpg);
+	background-color: #835aeb;
 	width: 580px;
 	height: 270px;
 	margin: 13px 0 0 0;
@@ -349,14 +421,14 @@ img {
 }
 .first_img_column_right {
 	display: inline-block;
-	background-image: url(img/photo-4.jpg);
+	background-color: #002453;
 	width: 282px;
 	height: 270px;
 }
 
 .second_img_column_right {
 	display: inline-block;
-	background-image: url(img/photo-5.jpg);
+	background-color: #ff2b4a;
 	width: 282px;
 	height: 270px;
 	margin: 0 0 0 13px;
@@ -367,13 +439,13 @@ img {
 }
 .third_img_column_right {
 	display: inline-block;
-	background-image: url(img/photo-4.jpg);
+	background-color: #002453;
 	width: 282px;
 	height: 270px;
 }
 .fourth_img_column_right {
 	display: inline-block;
-	background-image: url(img/photo-5.jpg);
+	background-color: #ff2b4a;
 	width: 282px;
 	height: 270px;
 	margin: 0 0 0 13px;
@@ -451,20 +523,40 @@ img {
     height: 730px;
     margin: 130px 0 130px 0;
 }
-.form_name {
-	display: block;
-}
-.form_email {
-	display: block;
-}
-.form_subject {
-	display: block;
-}
+
+
 .form_message {
 	display: block;
 }
 
+.form_input {
+	display: block;
+	background: none;
+	border: 1px solid #fff;
+	padding: 5px 15px;
+	color: #fff;
+
+
+}
+
 /* End of the Form Section */
+
+
+
+/*  Footer section  */
+
+
+.footer_section {
+	text-align: center;
+}
+.copyright_p {
+	text-align: center;
+}
+
+
+/*  End of the footer section  */
+
+
 
 
 
