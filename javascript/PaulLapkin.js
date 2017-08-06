@@ -21,12 +21,22 @@ $(document).ready(function(e) {
         		$('.header_aside').show(300);
         }
         );
+
         $('.list_menu').click(
         	function(){
         		$('.header_aside').hide(300);
 
         	}
         	);
+
+        $('.list_menu a').click(function(){
+  var elementClick = $(this).attr("href");
+  var destination = $(elementClick).offset().top;
+     $('html, body').animate({
+         scrollTop: destination
+     }, 1000);
+ });
+        
         $('.button-hire-me').mouseenter(
         	function(){
         		$('.tooltip').show(300);
@@ -38,6 +48,11 @@ $(document).ready(function(e) {
         		$('.tooltip').hide(300)
         	}
         	);
-
+        $( function() {
+    $( "#accordion" ).accordion(300);
+  } );
+         $( function() {
+    $( "#tabs" ).tabs();
+  } );
 
 });

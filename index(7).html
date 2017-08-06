@@ -3,15 +3,41 @@
 <head>
   <title>resume</title>
    <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
    <link rel="stylesheet" href="css/PaulLapkin.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
    <script src="javascript/PaulLapkin.js"></script>
+
 </head>
 <body>
+	<ul class="menu">
+	<li class="munu-item">menu1</li>
+	<li class="munu-item">menu2</li>
+	<li class="munu-item">
+		menu3
+		<div class="drop">
+			<ul>
+				<li><a href="">category</a></li>
+				<li><a href="">category</a></li>
+				<li><a href="">category</a></li>
+				<li><a href="">category</a></li>
+				<li><a href="">category</a></li>
+			</ul>
+		</div>
+	</li>
+	<li class="munu-item">menu4</li>
+	<li class="munu-item">menu5</li>
+</ul>
 	<header>
 		<div class="header">
 			<div class="bender">
 				
+				
+
+
 				<!-- menu -->
 
 				<div class="header_aside">
@@ -26,6 +52,10 @@
 				</div>
 
 				<!-- end menu -->
+				
+
+
+
 				<div class="logo"></div>
 				<div class="button-menu"></div>
 
@@ -40,14 +70,7 @@
 		</div>
 	</header>
 
-		<!--<nav style="background: red">
-			<ul>
-				
-				<li>Nav link</li>
-				<li>Nav link</li>
-				<li>Nav link</li>
-			</ul>
-		</nav>-->
+
 		
 			<main>
 				<article id="menu1">
@@ -140,46 +163,225 @@
 				</article>
 
 				
-						<section class="section_form">
-				            <div class="wrap">
+				<section class="section_form">
+					<div class="wrap">
 				                
-				                <div class="column1">
-				                    <form method="post">
-				                        <h2>Leave A Message</h2>
-				                        <input class="form_input" type="text" name="1" value="" placeholder="Name*">
-				                        <input class="form_input" type="email" name="2" value="" placeholder="Email*">
-				                        <input class="form_input" type="text" name="3" value="" placeholder="Subject*">
-				                        <textarea class="form_message" name="4" rows="15" cols="21" placeholder="Message*"></textarea>
-				                    </form>
-				                </div>
-				                <div class="column2">
-				                    <div class="adress">
-				                        <h2>AddresS</h2>
-				                        	<p>Gulshan Sales Office. Sa Tower (lvl-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
-				                    </div>
-				                    <div class="phone">
-				                        <h2>PhonE</h2>
-				                        	<p>+880 174 037 6995</p>
-											<p>+880 191 345 1111</p>
-				                    </div>
-				                    <div class="web">
-				                        <h2>WeB</h2>
-				                        	<p>MAIL: <a href="mailto: quicksayed@gmail.com">quicksayed@gmail.com</a></p>
-											<p>Web site: <a href="dribbble.com/alisayed">dribbble.com/alisayed</a></p>
-				                    </div>
-				                </div>
+				    	<div class="column1">   <!--Колонка первая, форма-->
+				        	<form method="post">
+				            	<h2>Leave a message</h2>
+				                	<input class="form_input" type="text" name="1" value="" placeholder="Name*">
+				                    <input class="form_input" type="email" name="2" value="" placeholder="Email*">
+				                    <input class="form_input" type="text" name="3" value="" placeholder="Subject*">
+				                    <textarea class="form_message" name="4" rows="15" cols="21" placeholder="Message*"></textarea>
+				            </form>
+				            <div class="button-hire-me-div">
+									<button class="button-hire-me">Hire me!</button>
+									<div class="tooltip">Я кнопочка, привет!</div>
+							</div>
+				        </div>
+				        <div class="column2">   <!--Колонка вторая-->
+				        	<div class="adress">
+				            	<h2>Address</h2>
+				                	<p>Gulshan Sales Office. Sa Tower (lvl-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+				            </div>
+				        
+				        	<div class="phone">
+				        		<h2>Phone</h2>
+				            		<p>+880 174 037 6995</p>
+									<p>+880 191 345 1111</p>
+				        	</div>
+				        	
+				        	<div class="web">
+				        		<h2>Web</h2>
+				            		<p>MAIL: <a href="mailto: quicksayed@gmail.com">quicksayed@gmail.com</a></p>
+									<p>Web site: <a href="dribbble.com/alisayed">dribbble.com/alisayed</a></p>
+				            </div>
 				                
-				           </div>
+				                
+				        </div>
 				        </section>
 
 			</main>
 			
-			<footer>
-				<div class="footer_section">
-					<p align="copyright_p">&copy; All rights Reserved;</p>
+			<footer class="main_footer_section">
+				<div class="wrap">
+					<div class="footer_section">
+						<div class="twitter"></div>
+						<div class="in"></div>
+						<p align="copyright_p">&copy; All rights Reserved;</p>
+					</div>
 				</div>
 			</footer>
 		
+
+
+
+
+
+
+
+
+
+
+
+<!--Материал практикующийся на занятиях Спалах
+
+
+
+
+
+
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+    <li><a href="#tabs-4">Nunc tincidunt</a></li>
+    <li><a href="#tabs-5">Proin dolor</a></li>
+    <li><a href="#tabs-6">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+  </div>
+  <div id="tabs-2">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+  <div id="tabs-3">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+  <div id="tabs-4">
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+  </div>
+  <div id="tabs-5">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+  <div id="tabs-6">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+</div>
+
+
+
+
+<div class="fotorama" data-width="100%" data-nav="thumbs">
+  <img src="http://s.fotorama.io/1.jpg">
+  <img src="http://s.fotorama.io/2.jpg">
+</div>
+
+<div class="fotorama">
+	<div class="slider_one">
+		<h1>Заголовок</h1>
+		<p class="text_slider_one">Текстовочка</p>
+		<button class="button_slider_one" type="submit">Купить!</button>
+	</div>
+	<div class="slider_two">
+		<h1>Заголовок</h1>
+		<p class="text_slider_two">Текстовочка</p>
+		<button class="button_slider_two" type="submit">Купить!</button>
+	</div>
+	<div class="slider_three">
+		<h1>Заголовок</h1>
+		<p class="text_slider_three">Текстовочка</p>
+		<button class="button_slider_three" type="submit">Купить!</button>
+	</div>
+
+</div>
+
+<label>
+	<input type="checkbox">
+	<div class="square">
+		
+	</div>
+</label>
+
+
+<div class="wrap">
+	<div class="column_ column_1">
+		<div class="squera"></div>
+		design
+	</div>
+	<div class="column_ column_2">
+		Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
+	</div>
+</div>
+
+
+
+<div class="wrap_paginator">
+	<div class="paginator">
+		<div class="prev">&larr;</div>
+		<ul class="pages">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+		</ul>
+		<div class="next">&rarr;</div>
+	</div>
+</div>
+
+
+
+
+-->
+
+
+
+
 
 
 </body>
