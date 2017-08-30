@@ -29,9 +29,59 @@ body {
 
 /* header */
 
+a {
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+.menu {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	&-wrap {
+	    display: flex;
+	    max-width: 500px;
+	    align-items: center;
+		}
+	&-logo {
+		background: url(sources/logo.jpg);
+	    width: 49px;
+	    height: 47px;
+	    margin: 0px 10px 0 40px;
+		&-title {
+			font-size: 30px;
+			font-family: 'Lato', sans-serif;
+		}
+	}
+	&-list {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		list-style: none;
+		&-home,
+		&-portfolio,
+		&-about,
+		&-contact {
+			margin: 0 40px 0 0;
+			font-family: 'Lato Regular' sans-serif;
+			font-size: 14px;
+			min-width: 85px;
+			text-align: center;
+			padding: 10px;
+			&:hover {
+				background: #1bbc9b;
+				color: #fff;
+				a {
+				color: #fff;	
+				}
+			}
+		}
+	}
+}
 .header {
 	&-bg {
-	background: url(sources/header-bg.jpg) no-repeat;
+	background: url(sources/header-bg.jpg) no-repeat fixed;
 	height: 100vh;
 	width: 100%;
 	background-size: cover;
@@ -81,6 +131,7 @@ body {
 	}
 	&-button2 {
 		background: url(sources/header-strelka2.png) no-repeat 0 0;
+		display: block;
 		width: 44px;
 		height: 44px;
 		margin: auto;
@@ -96,6 +147,18 @@ body {
 
 /* portfolio */
 
+.button-top {
+		display: block;
+		position: fixed;
+		background: url(sources/button-top.jpg) no-repeat;
+		width: 44px;
+		height: 44px;
+		right: 0;
+		bottom: 0;
+		border-style: none;
+		outline: none;
+		margin: 0 20px 20px 0;
+}
 .portfolio {
 	margin-top: 55px;
 	&-title {
@@ -446,14 +509,15 @@ body {
 }
 .copyright {
 	background: #2d3e50;
-	height: 50px;
-	padding-top: 40px;
+	height: 90px;
+	padding-top: 70px;
 	&-text {
 		padding-left: 30px;
 		font-family: 'Lato', sans-serif;
 		font-size: 14px;
 	}
 }
+
 
 	/* end of form section */
 

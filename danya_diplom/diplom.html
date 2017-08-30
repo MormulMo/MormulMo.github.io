@@ -10,20 +10,34 @@
    <script src="js/diplom.js"></script>
 </head>
 <body>
-    <header>
-        <div class="">
+    <header id="to-top">
+            <div class="menu">
+                <div class="menu-wrap">   
+                    <div class="menu-logo"></div>
+                    <div>
+                        <div class="menu-logo-title">bak-one</div>
+                        <div class="menu-logo-text">One page flate template</div>
+                    </div>
+                </div>
+                <ul class="menu-list">
+                    <li class="menu-list-home"><a href="#to-top">home</a></li>
+                    <li class="menu-list-portfolio"><a href="#portfolio">portfolio</a></li>
+                    <li class="menu-list-about"><a href="#about">about</a></li>
+                    <li class="menu-list-contact"><a href="#contact">contact</a></li>
+                </ul>
+            </div>
             <div class="header-bg">
                 <div class="header-wrap"> 
                     <div class="header-title">we build brand</div>
                     <div class="header-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
                     <div><button class="header-button1" type="submit">learn more</button></div>
-                    <div class="header-button2"></div>
+                    <span><a href="#portfolio" class="header-button2"></a></span>
                 </div>
             </div>
-        </div>
     </header>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="wrap">
+            <span><a href="#to-top" class="button-top"></a></span>
             <div class="portfolio-title">Portfolio</div>
             <div class="portfolio-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             <div class="portfolio-buttons">
@@ -46,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="wrap">
             <div class="about-title">About Us</div>
             <div class="about-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
@@ -99,7 +113,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="wrap">
             <div class="contact-title">Contact Us</div>
             <div class="contact-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
