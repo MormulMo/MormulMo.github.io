@@ -611,20 +611,24 @@ img {
 
 
 
-/*  Footer section  */
+/*Footer*/
 .main_footer_section {
 	background-image: url(img/footer_bg.jpg);
 
 }
 .twitter {
 	background-image: url(img/twitter.png);
+	display: inline-block;
 	width: 13px;
 	height: 12px;
+	align-items: center;
 }
 .in {
 	background-image: url(img/in_footer.png);
+	display: inline-block;
 	width: 13px;
 	height: 12px;
+	align-items: center;
 }
 .footer_section {
 	text-align: center;
@@ -633,7 +637,9 @@ img {
 .copyright_p {
 	text-align: center;
 }
-/*  End of the footer section  */
+/*End footer*/
+
+
 
 @keyframes pulse {
   0% {
