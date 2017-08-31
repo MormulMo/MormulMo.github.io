@@ -53,6 +53,7 @@ body {
 		&-title {
 			font-size: 30px;
 			font-family: 'Lato', sans-serif;
+			text-transform: uppercase;
 		}
 	}
 	&-list {
@@ -227,12 +228,72 @@ body {
 .animation {
 	display: flex;
 	flex-wrap: wrap;
+		&-opacity {
+				background: url(sources/podlozhka2.png) center center no-repeat;
+				position: absolute;
+				width: 180px;
+				height: 180px;
+				opacity: 0;
+				transition: all .4s linear;
+				transform: rotate(360deg);
+				&-change {
+					background: url(sources/podlozhka2.png) center center no-repeat;
+					position: absolute;
+					width: 181px;
+					height: 180px;
+					opacity: 0;
+					transition: all .4s linear;
+					transform: rotate(360deg);
+					&:hover {
+						opacity: 1;
+					}
+				}
+				&:hover {
+				border-color: #fff;
+				opacity: 1;
+			}
+			}
+			&-wrap {
+				visibility: hidden;
+				transition: all .4s linear;
+			}
+			&-search {
+				padding-left: 130px;
+				background: url(sources/bg-search.png) center center no-repeat;
+				width: 43px;
+				height: 45px;
+				left: 65px;
+				padding-bottom: 30px;
+				&-title {
+					font-family: 'Lato Regular', sans-serif;
+					font-size: 18px;
+					width: 180px;
+					text-align: center;
+					text-transform: uppercase;
+					color: #fff;
+				}
+				&-text {
+					font-family: 'Lato Regular', sans-serif;
+					font-size: 16px;
+					width: 180px;
+					text-align: center;
+					font-style: italic;
+					color: #fff;
+				}
+			}
 		&-img1, &-img2,
 		&-img3, &-img4,
 		&-img5, &-img6,
 		&-img7, &-img8 {
 			width: 180px;
 			height: 180px;
+			transition: all .4s linear;
+			&:hover {
+				transform: rotate(360deg);
+			}
+			&:hover .animation-wrap {
+				visibility: visible;
+			}
 		}
 		&-img1, &-img2,
 		&-img3, &-img4 {
@@ -456,6 +517,7 @@ body {
 			height: 33px;
 			box-shadow: 0 0 5px rgba(0,0,0,.3);
 			padding: 5px 5px;
+			transition: all .3s linear;
 			&:focus {
 				background: #f6f6f6;
 				border-color: #fff;
@@ -472,6 +534,7 @@ body {
 			height: 119px;
 			box-shadow: 0 0 5px rgba(0,0,0,.3);
 			padding: 5px 5px;
+			transition: all .3s linear;
 			&:focus {
 				background: #f6f6f6;
 				border-color: #fff;
@@ -548,12 +611,12 @@ body {
 }
 .copyright {
 	background: #2d3e50;
-	height: 90px;
-	padding-top: 70px;
+	height: 70px;
+	padding-top: 60px;
 	&-text {
 		padding-left: 30px;
 		font-family: 'Lato', sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 
