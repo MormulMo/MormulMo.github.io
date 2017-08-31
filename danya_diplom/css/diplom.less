@@ -29,10 +29,11 @@ body {
 
 /* header */
 
-a {
+.menu-list a {
 	text-decoration: none;
 	color: #000;
 	text-transform: uppercase;
+	transition: all .3s linear;
 }
 .menu {
     height: 100px;
@@ -69,6 +70,7 @@ a {
 			min-width: 85px;
 			text-align: center;
 			padding: 10px;
+			transition: all .3s linear;
 			&:hover {
 				background: #1bbc9b;
 				color: #fff;
@@ -132,8 +134,8 @@ a {
 	&-button2 {
 		background: url(sources/header-strelka2.png) no-repeat 0 0;
 		display: block;
-		width: 44px;
-		height: 44px;
+		width: 50px;
+		height: 50px;
 		margin: auto;
 		margin-top: 40px;
 		cursor: pointer;
@@ -158,6 +160,12 @@ a {
 		border-style: none;
 		outline: none;
 		margin: 0 20px 20px 0;
+		&:hover {
+			opacity: .7;
+		}
+		&:active {
+			opacity: 1;
+		}
 }
 .portfolio {
 	margin-top: 55px;
@@ -334,7 +342,7 @@ a {
 		}
 	}
 }
-	/* hover for about us section */
+	/* hover/active for about us section */
 
 .hover {
 	display: flex;
@@ -382,8 +390,20 @@ a {
 	opacity: .7;
 	margin: 90px 20px 85px 20px;
 }
+.facebook:hover,
+.twitter:hover,
+.google:hover,
+.earth:hover {
+	opacity: 0.7;
+}
+.facebook:active,
+.twitter:active,
+.google:active,
+.earth:active {
+	opacity: 1;
+}
 
-	/* end of hover for about us section */
+	/* end of hover/active for about us section */
 	/* end of About Us */
 
 
@@ -418,8 +438,15 @@ a {
 			border-color: #bec3c7;
 			width: 196px;
 			height: 33px;
+			box-shadow: 0 0 5px rgba(0,0,0,.3);
 			margin-right: 14px;
 			padding: 5px 5px;
+			transition: all .3s linear;
+			&:focus {
+				background: #f6f6f6;
+				border-color: #fff;
+				color: #000;
+			}
 		}
 		&-email {
 			outline: none;
@@ -427,7 +454,13 @@ a {
 			border-color: #bec3c7;
 			width: 196px;
 			height: 33px;
+			box-shadow: 0 0 5px rgba(0,0,0,.3);
 			padding: 5px 5px;
+			&:focus {
+				background: #f6f6f6;
+				border-color: #fff;
+				color: #000;
+			}
 		}
 		&-textarea {
 			display: block;
@@ -437,7 +470,13 @@ a {
 			margin: 22px 0 0 0;
 			width: 426px;
 			height: 119px;
+			box-shadow: 0 0 5px rgba(0,0,0,.3);
 			padding: 5px 5px;
+			&:focus {
+				background: #f6f6f6;
+				border-color: #fff;
+				color: #000;
+			}
 		}
 		&-button {
 			float: right;
