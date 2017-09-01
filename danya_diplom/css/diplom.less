@@ -123,7 +123,6 @@ body {
 		text-align: center;
 		text-transform: uppercase;
 		padding: 3px 0 0 0;
-	/*  animation: pulse 3s infinite; */
 	}
 	&-button1:hover {
 		background-color: #1bbc7b;
@@ -144,8 +143,8 @@ body {
 			background: url(sources/strelkahover.png) no-repeat -3px -3px;
 		}
 	}
-
 }
+
 /* end of header */
 
 /* portfolio */
@@ -252,7 +251,7 @@ body {
 				&:hover {
 				border-color: #fff;
 				opacity: 1;
-			}
+				}
 			}
 			&-wrap {
 				visibility: hidden;
@@ -296,12 +295,16 @@ body {
 				visibility: visible;
 			}
 		}
-		&-img1, &-img2,
-		&-img3, &-img4 {
+		&-img1, 
+		&-img2,
+		&-img3, 
+		&-img4 {
 			margin: 40px 65px 35px 0;
 		}
-		&-img5, &-img6,
-		&-img7, &-img8 {
+		&-img5, 
+		&-img6,
+		&-img7, 
+		&-img8 {
 			margin-right: 65px;
 			margin-bottom: 50px;
 		}	
@@ -335,6 +338,7 @@ body {
 
 
 	/* start of About Us */
+
 .about {
 	background-color: #16a086;
 	width: 100%;
@@ -466,6 +470,7 @@ body {
 }
 
 	/* end of hover/active for about us section */
+	
 	/* end of About Us */
 
 
@@ -620,11 +625,9 @@ body {
 	}
 }
 
-
 	/* end of form section */
 
-
-
+	/* start of mediaq part */
 
 @media all and (max-width: 550px) {
 	.wrap {
@@ -752,6 +755,7 @@ body {
 	}
 }
 
+/* next mediaq part */
 
 @media (min-width: 550px) and (max-width: 997px) {
     .wrap {
@@ -897,29 +901,7 @@ body {
 					text-align: center;
 				}
 			}
-			
 		}
 	}
 }
-
-
-
-
-
-
-
-
-/*
-@keyframes pulse {
-  0% {
-    background-color: #1bbc3b;
-    letter-spacing: 7px;
-    font-size: 16px;
-  }
-  100% {
-    background-color: #1bbc9b;
-    letter-spacing: 2px;
-    font-size: 15px;
-  }
-}
-*/
+	/* end of mediaq part */
